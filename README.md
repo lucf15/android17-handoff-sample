@@ -1,5 +1,9 @@
 # Feed · Android 17 Handoff
 
+![Android 17 Handoff: continue reading on another device](docs/media/cover.png)
+
+[Read the article on Medium](https://medium.com/@lucf15/9e397c245aac)
+
 Start reading on a phone. Select Feed from the tablet’s **Continue On** suggestion, then choose **Continue** to resume the same article and section.
 
 Feed is a small Kotlin and Jetpack Compose sample for the Android 17 Activity Handoff APIs. It includes six fictional articles, an adaptive feed, a reader, saved stories and an explicit confirmation before replacing the current reading. It has no backend or app account.
@@ -26,11 +30,9 @@ If the suggestion is missing, check the device requirements, cross-device settin
 
 ## See the flow
 
-![Feed on a phone and tablet](docs/screenshots/overview.png)
+![Complete phone-to-tablet journey: open Feed, select an article, choose the system suggestion and resume](docs/media/reading-journey.gif)
 
-![Continue On suggestion in the tablet Recent apps taskbar](docs/screenshots/tablet-suggestion.png)
-
-![Continue reading confirmation on the receiving tablet](docs/screenshots/tablet-resume.png)
+Phone on the left, tablet on the right. The recording shows the phone launcher, article selection, the system suggestion in the tablet’s Recent apps, and the confirmation before restoring the reading section.
 
 The reading position is a **section**, not a pixel offset. The same section wraps differently on a phone and tablet. The visible counter is one-based; the transferred index is zero-based.
 
@@ -80,7 +82,7 @@ The instrumentation runner checks confirmation, dismissal, cold/warm intent deli
 
 For a manual end-to-end check, compare `DATA_REQUEST`, `OFFER` and `RESTORED` in the `HandoffSample` log tag. The article, section and session should match. Verify the section in the reader too, then repeat with **Not now** and with the receiving app already open.
 
-Kotlin source is formatted with four-space indentation. The repository contains application code and app screenshots; editorial article assets are maintained separately.
+Kotlin source is formatted with four-space indentation. The repository includes the article cover and demo GIF. The article text and editable editorial sources are maintained separately.
 
 ## Official Android guides
 
