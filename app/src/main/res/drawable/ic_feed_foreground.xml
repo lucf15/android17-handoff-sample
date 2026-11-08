@@ -1,0 +1,18 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:width="108dp" android:height="108dp" android:viewportWidth="108" android:viewportHeight="108">
+    <group android:pivotX="54" android:pivotY="54" android:scaleX="0.80" android:scaleY="0.80">
+    <group android:pivotX="54" android:pivotY="54" android:rotation="-9">
+        <path android:fillColor="#2678D6" android:pathData="M37,31h34a6,6 0,0 1,6 6v42a6,6 0,0 1,-6 6h-34a6,6 0,0 1,-6 -6v-42a6,6 0,0 1,6 -6" />
+        <path android:fillColor="#B6DCFF" android:pathData="M35,28h34a6,6 0,0 1,6 6v42a6,6 0,0 1,-6 6h-34a6,6 0,0 1,-6 -6v-42a6,6 0,0 1,6 -6" />
+    </group>
+    <path android:pathData="M38,26h34a6,6 0,0 1,6 6v42a6,6 0,0 1,-6 6h-34a6,6 0,0 1,-6 -6v-42a6,6 0,0 1,6 -6" android:strokeColor="#B3FFFFFF" android:strokeWidth="0.6">
+        <aapt:attr name="android:fillColor">
+            <gradient android:startX="55" android:startY="26" android:endX="55" android:endY="80" android:type="linear">
+                <item android:offset="0" android:color="#FFFFFF" />
+                <item android:offset="1" android:color="#DEEDFF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path android:fillColor="#368BF2" android:pathData="M42,37h26a2,2 0,0 1,2 2v12a2,2 0,0 1,-2 2h-26a2,2 0,0 1,-2 -2v-12a2,2 0,0 1,2 -2" />
+    <path android:strokeColor="#6E9DCF" android:strokeWidth="3" android:strokeLineCap="round" android:pathData="M42,61h26M42,68h17" />
+    </group>
+</vector>
